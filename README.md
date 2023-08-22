@@ -1,3 +1,5 @@
+# Algorithm-Study2
+
 ## 알고리즘 스터디
 
 > 스터디를 진행할 repository 입니다.<br/>문제: https://www.acmicpc.net/workbook/codeplus<br/>정비기간 : 23.08.23 ~
@@ -15,4 +17,3 @@ fork -> 각자 이름으로 폴더 생성 -> add/commit/push -> 일요일까지 
 ### 파일 이름
 
 문제번호\_문제이름
-# Algorithm-Study2
