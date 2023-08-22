@@ -2,11 +2,12 @@
 
 ## 알고리즘 스터디
 
-> 스터디를 진행할 repository 입니다.<br/>문제: https://www.acmicpc.net/workbook/codeplus<br/>정비기간 : 23.08.23 ~
+> 스터디를 진행할 repository 입니다.<br/>문제: https://www.acmicpc.net/workbook/codeplus<br/> 기간 : 23.08.23 ~
 
 ### 스터디 규칙
 
--
+- 일요일 오후 9시 발표
+- 일주일에 3문제
 - 풀이과정의 경우 가장 상단에 주석처리 해주세요(링크 공유 check)
 - 일요일 9시 PR 마감
 
