@@ -14,8 +14,6 @@ for i in range(len(arr)):
     for j in range(i+1, len(arr)):
         if num_sum - arr[i] - arr[j] == 100:
             for k in range(len(arr)):
-                if k == i or k == j:
-                    pass
-                else:
+                if k != i and k != j:
                     print(arr[k])
-            break
+            exit()
