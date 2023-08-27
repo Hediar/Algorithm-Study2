@@ -28,7 +28,7 @@ for _ in range(r): # 회전 수 만큼 수행
             data[x][y] = temp
             temp = prev
         
-        for j in range(i + 1, m - i):
+        for j in range(i + 1, m - i): # 상 
             y = m - j - 1
             prev = data[x][y]
             data[x][y] = temp
