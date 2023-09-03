@@ -5,7 +5,9 @@ int E,S,M,ret = 1;
 int main() {
     cin >> E >> S >> M;
 
-    int i = 0, j = 0, k = 0;
+    int i = 0;
+    int j = 0;
+    int k = 0;
 
     while(true) {
         i++; j++; k++;
@@ -15,7 +17,7 @@ int main() {
         if(k > 19) k = 1;
 
         if(i == E && j == S && k == M) {
-            cout << ret+1;
+            cout << ret;
             break;
         }
         ret++;
