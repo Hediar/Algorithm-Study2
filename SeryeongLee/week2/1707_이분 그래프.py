@@ -14,7 +14,7 @@ def bfs(start, group):
         for i in graph[x]: # 해당 정점에서 갈 수 있는 하위 정점들 돌기
             if not visited[i]: # 방문 하지 않은 곳 추가
                 queue.append(i)
-                visited[i] = -1 * visited[x] # 상위 정점과 다른 그룹
+                visited[i] = -1 * visited[x] # 상위 정점과 다른 그룹으로 분류 
             elif visited[i] == visited[x]: # 방문함 & 같은 그룹일때
                 return False
     return True
