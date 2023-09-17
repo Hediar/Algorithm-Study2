@@ -5,6 +5,7 @@ input = sys.stdin.readline
 T = []
 P = []
 N = int(input())
+
 for i in range(N):
     arr = list(map(int, input().split()))
     T.append(arr[0])
@@ -20,5 +21,6 @@ def solution(day, sum):
         return
     solution(day + T[day], sum + P[day]) # 현재작업 기준으로 현재날짜+ T[day] 현재이익+ P[day]
     solution(day + 1, sum) # 현재 작업을 건너뛰고 다음날짜 + 현재 총 이익 
+    
 solution(0,0) # 초기 시작
 print(ans)
