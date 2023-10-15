@@ -70,4 +70,3 @@ fork -> 각자 이름으로 폴더 생성 -> add/commit/push -> 일요일까지 
 | 8주차<br />(23.10.09~23.10.15) |          [14226 - 이모티콘](https://www.acmicpc.net/problem/14226)          |            [BFS](https://www.acmicpc.net/workbook/view/9379)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
 |          8주차<br />           |            [1912 - 연속합](https://www.acmicpc.net/problem/1912)            | [다이나믹 프로그래밍 Part 1](https://www.acmicpc.net/workbook/view/9376) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
 |          8주차<br />           |         [16234 - 인구 이동](https://www.acmicpc.net/problem/16234)          |     [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9389)      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
-
