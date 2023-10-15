@@ -10,7 +10,6 @@ queue.append((1,0))
 visited = dict()
 visited[(1, 0)] = 0
 
-
 while queue:
     screen, clipboard = queue.popleft()
     # 종료 조건
