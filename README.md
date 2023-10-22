@@ -73,11 +73,9 @@ fork -> 각자 이름으로 폴더 생성 -> add/commit/push -> 일요일까지 
 | 9주차<br />(23.10.16~23.10.22) |        [17086 - 아기 상어 2](https://www.acmicpc.net/problem/17086)         |            [BFS](https://www.acmicpc.net/workbook/view/9387)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
 |          9주차<br />           |         [1699 - 제곱수의 합](https://www.acmicpc.net/problem/1699)          | [다이나믹 프로그래밍 Part 1](https://www.acmicpc.net/workbook/view/9376) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
 |          9주차<br />           |       [17144 - 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)       |     [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9389)      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
-
 10, 11주차<br />(23.10.23~23.11.05) | [16948 - 데스 나이트](https://www.acmicpc.net/problem/16948) | [BFS](https://www.acmicpc.net/workbook/view/9387) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
 | 10, 11주차<br /> | [2193 - 이친수](https://www.acmicpc.net/problem/2193) | [다이나믹 프로그래밍 Part 1](https://www.acmicpc.net/workbook/view/9376) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 10, 11주차<br /> | [16974 - 레벨 햄버거](https://www.acmicpc.net/problem/16974) | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9389) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
-
 10, 11주차<br /> | [14395 - 4연산](https://www.acmicpc.net/problem/14395) | [BFS](https://www.acmicpc.net/workbook/view/9387) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
 | 10, 11주차<br /> | [11052 - 카드 구매하기](https://www.acmicpc.net/problem/11052) | [다이나믹 프로그래밍 Part 1](https://www.acmicpc.net/workbook/view/9376) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
 | 10, 11주차<br /> | [17140 - 이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [시뮬레이션과 구현](https://www.acmicpc.net/workbook/view/9389) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
