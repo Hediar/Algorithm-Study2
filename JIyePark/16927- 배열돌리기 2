@@ -1,0 +1,37 @@
+NN, MM, R = map(int, input().split())
+arr = [list(map(int, input().split())) for _ in range(NN)]
+
+from collections import deque
+depth = min(NN, MM)//2
+move = [[0, 1], [1, 0], [0, -1], [-1, 0]]
+for d in range(depth):
+    r, c = d, d
+    N = NN - d*2
+    M = MM - d*2
+    q = deque()
+    for dr, dc in move:
+        while True:
+            nr, nc = r+dr, c+dc
+            if d<=nr<d+N and d<=nc<d+M:
+                q.append(arr[nr][nc])
+                r, c = nr, nc
+            else:
+                break
+
+    # rotate
+    rotate = R % (2*(N-1)+2*(M-1))
+    for _ in range(rotate):
+        q.append(q.popleft())
+    
+    # write at arr
+    for dr, dc in move:
+        while True:
+            nr, nc = r+dr, c+dc
+            if d<=nr<d+N and d<=nc<d+M:
+                arr[nr][nc] = q.popleft()
+                r, c = nr, nc
+            else:
+                break
+
+for row in arr:
+    print(' '.join(map(str, row)))

@@ -1,0 +1,33 @@
+def move_dice(direction, x, y):
+    global dice
+
+    temp_dice = dice[:]
+    if direction == 1:  # 동쪽
+        dice[0], dice[2], dice[3], dice[5] = temp_dice[3], temp_dice[0], temp_dice[5], temp_dice[2]
+    elif direction == 2:  # 서쪽
+        dice[0], dice[2], dice[3], dice[5] = temp_dice[2], temp_dice[5], temp_dice[0], temp_dice[3]
+    elif direction == 3:  # 북쪽
+        dice[0], dice[1], dice[4], dice[5] = temp_dice[4], temp_dice[0], temp_dice[5], temp_dice[1]
+    elif direction == 4:  # 남쪽
+        dice[0], dice[1], dice[4], dice[5] = temp_dice[1], temp_dice[5], temp_dice[0], temp_dice[4]
+
+    if map_data[x][y] == 0:
+        map_data[x][y] = dice[5]
+    else:
+        dice[5], map_data[x][y] = map_data[x][y], 0
+
+n, m, x, y, k = map(int, input().split())
+map_data = [list(map(int, input().split())) for _ in range(n)]
+orders = list(map(int, input().split()))
+
+dice = [0] * 6
+dx = [0, 0, -1, 1]
+dy = [1, -1, 0, 0]
+
+for order in orders:
+    nx, ny = x + dx[order - 1], y + dy[order - 1]
+
+    if 0 <= nx < n and 0 <= ny < m:
+        move_dice(order, nx, ny)
+        print(dice[0])
+        x, y = nx, ny
